@@ -1,0 +1,14 @@
+filetype: gittab
+
+detect:
+    filename: "^gittab$"
+
+rules:
+    - comment: "^>.*"
+#    - diff-added: "^☆.*" 
+    - special: "^#.*" 
+    - todo: "^★.*"
+    - diff-modified: "^M.*"
+    - diff-added: "^\\?.*"
+    - error: "^D.*"
+    - constant: "\\[[^]]+\\]"
