@@ -1,0 +1,18 @@
+[
+	{
+		"Name": "gittab",
+		"Description": "atom like git-tab for micro ",
+		"Tags": ["git", "tab"],
+        "Website": "https://github.com/gaenseklein/gittab",
+        "License": "GPL3",
+		"Versions": [
+			{
+				"Version": "0.0.0",
+				"Url": "https://github.com/gaenseklein/gittab/archive/refs/tags/v0.0.0.zip",
+				"Require": {
+					"micro": ">=2.0.13"
+				}
+			}
+		]
+	}
+]
